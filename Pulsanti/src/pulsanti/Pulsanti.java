@@ -18,7 +18,7 @@ public class Pulsanti extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Registration Form");
+        primaryStage.setTitle("Pulsanti");
         
         Button button1 = new Button("cliccami");
         button1.setOnAction(new EventHandler<ActionEvent>() {
