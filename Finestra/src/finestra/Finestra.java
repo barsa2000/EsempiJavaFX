@@ -13,7 +13,7 @@ public class Finestra extends Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Registration Form");
+        primaryStage.setTitle("Finestra");
         
         Button button = new Button("cliccami");
         
