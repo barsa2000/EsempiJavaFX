@@ -7,14 +7,13 @@ import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
 public class Pulsanti extends Application{
     
-    final int h = 300, w = 300;
+    final int h = 400, w = 300;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -38,7 +37,7 @@ public class Pulsanti extends Application{
         layout.setAlignment(Pos.CENTER);
         layout.getChildren().addAll(button1, button2);
         
-        Scene scene = new Scene(layout, h, w);
+        Scene scene = new Scene(layout, w, h);
         
         primaryStage.setScene(scene);
         primaryStage.show();

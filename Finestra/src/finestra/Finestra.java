@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 public class Finestra extends Application{
     
-    final int h = 300, w = 300;
+    final int h = 400, w = 300;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -20,7 +20,7 @@ public class Finestra extends Application{
         StackPane layout = new StackPane();
         layout.getChildren().addAll(button);
         
-        Scene scene = new Scene(layout, h, w);
+        Scene scene = new Scene(layout, w, h);
         
         primaryStage.setScene(scene);
         primaryStage.show();
