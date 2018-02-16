@@ -7,7 +7,7 @@ Esempio di una finestra di base.
 -Pulsanti  
 Esempio per l'utilizzo di un pulsante  
   
---ScambiaScene  
+-ScambiaScene  
 Esempio per lo scambio di più scene dentro lo stesso stage attraverso dei pulsanti  
   
 -FinestraLogin  
@@ -16,5 +16,8 @@ Esempio di una finestra di login di base con utilizzo di layout a griglia, pulsa
 -LoginAvanzato  
 Esempio di una finestra di registrazione che utilizza RadioButton, 
 ComboBox, CheckBox, DatePicker, ListView.  
+
+-FinestreMultiple  
+Esempio di un programma che gestisce più finestre.  
 
 È presente un template per la creazione di un'applicazione JavaFX (Cartella Template)  
